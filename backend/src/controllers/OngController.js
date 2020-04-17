@@ -8,7 +8,7 @@ module.exports = {
     },
       
     async create (request,response) {
-        const {name, email, whatsapp, cidade,uf} = request.body;
+        const {name, email, whatsapp, city,uf} = request.body;
         const id = crypto.randomBytes(4).toString('HEX');
 
         //Para aceitar o await a função precisa ser assíncrona(async)
@@ -17,7 +17,7 @@ module.exports = {
             name,
             email,
             whatsapp,
-            cidade,
+            city,
             uf,
         })
 
