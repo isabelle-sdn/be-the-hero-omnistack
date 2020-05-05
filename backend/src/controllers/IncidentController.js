@@ -14,7 +14,7 @@ module.exports = {
             'ongs.name',
             'ongs.email',
             'ongs.whatsapp',
-            'ongs.cidade',
+            'ongs.city',
             'ongs.uf'
         ])
         .limit(5)
